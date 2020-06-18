@@ -16,7 +16,7 @@ import seaborn as sns
 sns.set()
 
 
-filename1 = '/Users/pbanerjee/Documents/CBU/CBU_Projects/CBU_Internal/Data_Report_Redcap/df_report.csv'
+filename1 = '~/df_report.csv'
 df_report = pd.read_csv(filename1)
 analysis_count = df_report.Analysis_Type.value_counts(sort=True)
 # print(analysis_count)
